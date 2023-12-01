@@ -22,4 +22,4 @@ Feel free to contribute.
 ## License
 Licensed under the MIT License, for more info see [LICENSE](https://github.com/dp-zini/WrapPy/blob/main/LICENSE)
 
-##Not affiliated with Spotify, at all.
+Not affiliated with Spotify, at all.
