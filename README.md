@@ -6,7 +6,7 @@ Uses VLC log file to find play history and wraps it up for you.
 You need to set up VLC logging. Open VLC -> Tools -> Preferences, Select All settings in the bottom right of the menu, logger, create log file, set log settings to debug and you're ready
 
 ``` python
-pip install mutagen urllib
+pip install mutagen pandas
 ```
 ## Usage
 ``` python
