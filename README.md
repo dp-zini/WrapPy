@@ -3,7 +3,9 @@
 Uses VLC log file to find play history and wraps it up for you.
 
 ## Installation
-You need to set up VLC logging. Open VLC -> Tools -> Preferences, Select All settings in the bottom right of the menu, logger, create log file, set log settings to debug and you're ready
+You need to set up VLC logging. Open VLC -> Tools -> Preferences, Select All settings in the bottom right of the menu, logger, create log file, set log settings to debug and you're ready.
+You can dump the vlc_media.db on android from Settings -> Advanced -> Dump Media Database.
+From there you can get the file from the root of your device and run the script with it.
 
 ``` python
 pip install mutagen pandas
