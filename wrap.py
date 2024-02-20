@@ -72,7 +72,7 @@ def count_media_plays(log_file_path, file_extensions):
     artist_genre_info = {}
 
     try:
-        with open(log_file_path, 'r') as log_file:
+        with open(log_file_path, 'r', encoding='utf-8') as log_file:
             log_contents = log_file.readlines()
     except FileNotFoundError:
         print("log file not found.")
